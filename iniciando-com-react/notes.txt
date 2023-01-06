@@ -1,3 +1,5 @@
 existem dois momentos para se criar componentes no react:
 1- Quando algo se repete muito em tela com mesmo visual e/ou comportamento
 2- Quando se consegue tirar algo de um componente maior sem que ele pare de funcionar assim deixando o componente maior mais limpo e mais claro, facilitando na manutenção
+
+intl.DateTimeFormat: formatação de datas
