@@ -3,3 +3,13 @@ existem dois momentos para se criar componentes no react:
 2- Quando se consegue tirar algo de um componente maior sem que ele pare de funcionar assim deixando o componente maior mais limpo e mais claro, facilitando na manutenção
 
 intl.DateTimeFormat: formatação de datas
+
+
+
+# Programação imperativa
+    -O que deve ser feito (passo-a-passo)
+    .receita de bolo
+
+# Programação declarativa
+    -Quais as condições para eu ter o resultado final.
+    
