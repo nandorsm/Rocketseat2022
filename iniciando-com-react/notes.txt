@@ -13,3 +13,18 @@ intl.DateTimeFormat: formatação de datas
 # Programação declarativa
     -Quais as condições para eu ter o resultado final.
     
+
+# Key no react
+## Porque Unica?
+3 momentos em que um componente é renderizado novamente no React.
+
+1. Quando o estado altera;
+2. Quando a propriedade altera;
+3. Qunado um componente pai renderiza novamente;
+
+##Porque não posso usar o índice do array?
+porque caso os itens da lista mudem apenas de lugar, o react vai entender que foi modificado todo o array e vai renderizar todos os elementos. Porque o índice referente ao item vai ser modificado por causa da sua posição. ou seja, os posts mudam de posição mas os índices não.
+```js
+const post = [1, 2, 5, 4, 3]
+// 0, 1, 2, 3, 4
+```
