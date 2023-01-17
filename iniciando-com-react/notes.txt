@@ -28,3 +28,19 @@ porque caso os itens da lista mudem apenas de lugar, o react vai entender que fo
 const post = [1, 2, 5, 4, 3]
 // 0, 1, 2, 3, 4
 ```
+
+
+# Closures no React
+
+func
+```js
+function handleLikeComment() {
+    setLikeCount((state) => {
+        return state + 1 //ele vai pegar o estado mais atual
+    });
+    setLikeCount((state) => {
+        return state + 1 //ele vai pegar o estado mais atual
+    });
+    //assim o react não entra no Closure e vai executar a função duas vezes, assim somando de 2 em 2
+}
+// Sempre que for atualizar uma informação e essa informação depende do valor que ela tinha anteriormente, ou seja depende dela mesma, é sempre bom fazer a atualização utilizando esse padrão de funções
